@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+   
+    <ItemGroup>
+      <Content Include="module.notifications.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+   
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\..\MyApp.Shared\MyApp.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

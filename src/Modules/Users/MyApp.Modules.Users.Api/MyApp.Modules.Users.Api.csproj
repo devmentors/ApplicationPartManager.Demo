@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Remove="module.users.json" />
+        <Content Include="module.users.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\..\MyApp.Shared\MyApp.Shared.csproj" />
+      <ProjectReference Include="..\..\Orders\MyApp.Modules.Orders.Core\MyApp.Modules.Orders.Core.csproj" />
+    </ItemGroup>
+
+</Project>

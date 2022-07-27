@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Modules\Notifications\MyApp.Modules.Notifications.Api\MyApp.Modules.Notifications.Api.csproj" />
+      <ProjectReference Include="..\..\Modules\Orders\MyApp.Modules.Orders.Api\MyApp.Modules.Orders.Api.csproj" />
+      <ProjectReference Include="..\..\Modules\Users\MyApp.Modules.Users.Api\MyApp.Modules.Users.Api.csproj" />
+    </ItemGroup>
+
+
+
+</Project>
