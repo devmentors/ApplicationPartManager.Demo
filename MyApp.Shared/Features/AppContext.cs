@@ -3,4 +3,4 @@ using MyApp.Shared.Modules;
 
 namespace MyApp.Shared.Features;
 
-public sealed record AppContext(IEnumerable<Assembly> LoadedAssemblies, IEnumerable<IModule> LoadedModules);
+public sealed record AppContext(List<Assembly> LoadedAssemblies, HashSet<IModule> LoadedModules);

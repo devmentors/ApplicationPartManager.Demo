@@ -6,10 +6,7 @@ using MyApp.Shared.Modules;
 var builder = WebApplication.CreateBuilder(args);
 builder.Host.ConfigureModules();
 
-
 var (assemblies, modules) = AppInitializer.Initialize(builder);
-
-
 
 foreach (var module in modules)
 {
