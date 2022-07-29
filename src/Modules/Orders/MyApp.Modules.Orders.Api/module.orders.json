@@ -2,7 +2,7 @@
   "orders": {
     "module": {
       "name": "Orders",
-      "enabled": true
+      "enabled": false
     }
   }
 }

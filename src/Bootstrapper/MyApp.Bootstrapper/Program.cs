@@ -1,6 +1,4 @@
-using MyApp.Modules.Orders.Core.Services;
 using MyApp.Shared.Features;
-using MyApp.Shared.Modules;
 
 
 var builder = WebApplication.CreateBuilder(args);

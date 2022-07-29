@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using MyApp.Modules.Orders.Core.Services;
 using MyApp.Shared.Modules;
 
 namespace MyApp.Modules.Users.Api;

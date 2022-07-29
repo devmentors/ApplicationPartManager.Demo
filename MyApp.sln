@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Modules.Notifications
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{45D0EEB0-1A1E-4D94-941B-B44938817FD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Shared", "MyApp.Shared\MyApp.Shared.csproj", "{A5DCCAFE-804C-4188-BA80-2C1AE8252FF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Shared", "src\Shared\MyApp.Shared\MyApp.Shared.csproj", "{A5DCCAFE-804C-4188-BA80-2C1AE8252FF0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Modules.Orders.Core", "src\Modules\Orders\MyApp.Modules.Orders.Core\MyApp.Modules.Orders.Core.csproj", "{7F6F7B37-998D-424F-878E-7924C1922A95}"
 EndProject

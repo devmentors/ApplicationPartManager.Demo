@@ -51,8 +51,6 @@ public static class AppInitializer
             manager.FeatureProviders.Add(new CustomControllerFeatureProvider());
         });
 
-        #region Modules
-
         var modules = assemblies
             .SelectMany(x => x.GetTypes())
             .Where(x => typeof(IModule).IsAssignableFrom(x) && x.IsClass)
@@ -60,10 +58,7 @@ public static class AppInitializer
             .Select(Activator.CreateInstance)
             .Cast<IModule>()
             .ToList();
-
-        #endregion
-       
-
+        
         return new (assemblies.ToList(), modules.ToHashSet());
     }
 }
